@@ -344,7 +344,9 @@ function helloChecker(string) {
   let noHellos = "Ingen HELLO oppdaget.";
   let inWhatLanguages = [];
   let h = true;
-
+  // that is a lot of if lines!
+  // but what if a sentence has hellos in multiple different languages?
+  // I'm not parranoid! You're paranoid?
   string = string.toLowerCase();
   if (string.includes("hello")) {
     inWhatLanguages.push("engelsk");
