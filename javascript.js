@@ -155,7 +155,7 @@ diceRoller(5, 20) skal returnere et array med 5 tilfeldige tall fra 1-20.
 
 ******************************************************************************/
 
-// Skriv koden for oppgave 2 hert
+// Skriv koden for oppgave 2 her
 
 console.log("----------------------");
 console.log(`task ${task}`);
@@ -347,6 +347,7 @@ function helloChecker(string) {
   // that is a lot of if lines!
   // but what if a sentence has hellos in multiple different languages?
   // I'm not parranoid! You're paranoid?
+  // Or are you...
   string = string.toLowerCase();
   if (string.includes("hello")) {
     inWhatLanguages.push("engelsk");
